@@ -4,6 +4,12 @@ The information displayed here will vary depending on which Branch is being used
 
 Let's hope this works!!!
 
+<<<<<<< HEAD
 Branch 1 - This is the portion of new text from the Branch 1.
 
 BRANCH 1 REPORTING FOR DUTY
+=======
+Branch 2 - Insert placeholder text here.
+
+BRANCH 2 REPORTING FOR DUTY
+>>>>>>> Branch2
