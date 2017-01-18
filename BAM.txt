@@ -3,3 +3,5 @@ This is the file that will be used for DGM260R's Git Branching and Merging Assig
 The information displayed here will vary depending on which Branch is being used to view this document, but will all come together by the end of the assignment.
 
 Let's hope this works!!!
+
+Branch 3 - And now for something completely different.
