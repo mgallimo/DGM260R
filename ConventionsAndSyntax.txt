@@ -1,0 +1,15 @@
+INSTRUCTIONS: Write your understanding of the topic using comments and examples (at least 5 examples) to the instructor and describe them in your own words to the best of your knowledge. Put your work to GIT. Submit the GIT url to canvas. 
+ 
+Coding syntax is like the structure of a language, and like any other language it has its rules and conventions that must be followed.  
+ 
+The first is a dot operator, or a period (.). Dot operators are often seen seperating words within code and act like writing a line of an address. Let us look at a line of code for this example: Debug.Log(transform.position.x); Here, debug would be the country and log the city. Note how they are seperated by a period. This also goes for the code inside the parenthesis. In this case, transform would be the country, position the city, and x the street.  
+ 
+Dot operators can also be used to allow you to access or seperate elements of a compound item in unity. Many elements are contained within a compound item. Let us go back to the line of code in the previous paragraph, namely the code inside the parenthesis. You see, transform actually contains position, rotation, and scale. These are properties you can apply to the item you are writing code for. For this line of code, the dot operators used choose a position, which contains variables (namely x, y, and z), and then picks x out of said variables. This becomes easier to understand when you remember that dot operators act like the line of an address. 
+ 
+The second rule is a Semicolon (;), which are used to terminate statements. This is also why you always see one at the end of said statements. However, not all lines of code are statements. You do not need to use a semicolon when opening or closing class declarations because they use a curly brace ({}) instead. Anything that uses a curly brace does not need a semicolon at the end of it. If statements are another example of statements that do not use a semicolon. 
+ 
+The third rule is indenting, which can be performed by using the Tab key. It is something that does not have to be done for your code to work, but rather it makes it more readable and shows structure in your code. You have got to make sure all of you indentations make sense, especially if you are working with someone else on your code, or else you will have difficulty reading it. It is recommended that you indent your code that you can visually trace a line doing down the page and spot where code blocks begin and end. 
+ 
+And last, but most certainly not least, comments. They are literally as they sound. Really. You can use them to leave a note or two for yourself or other coders. All you need to do is start a new line of code with a double forward slash (//) and then type away. Well, almost. You can write multiple lines within a comment by starting with a single forward slash followed by an asterisk (*), your line of text, and then terminated by an asterisk followed by a forward slash. So it would look like this: /*pretend this is multiple lines of text*/ 
+ 
+  
