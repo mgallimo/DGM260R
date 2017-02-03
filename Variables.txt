@@ -56,3 +56,15 @@ public class rorate : MonoBehaviour {
 		transform.Rotate (new Vector3 (rotX, rotY, rotZ) * Time.deltaTime * speed);
 
 Here we have assigned how the smaller cubes that the playable cube is going to collect will rotate. We have quite an interesting mix here, but the effect looks great I promise. Each smaller cube will be rorate in the exact same direction. However, the speed of each cube will be generated at random from half to double average. You should also note how there are no numbers needed for the transform.Rotate function because we have already assigned them numbers earlier and are using the names we gave those integers instead. You will also notice these in the earlier examples.
+
+Doubles can hold decimals that are 64-bit. Or the double-precision version of float. This means they can hold more than one number for their decimals. for example:
+
+double numBananas = 3.14;
+
+Strings can hold characters from alphanumeric sequence as well as special characters. for example:
+
+string name = "DGM1600";
+
+Booleans (bool) can only have two values, which are true/false statements. for example:
+
+bool fullMag - true;
