@@ -1,0 +1,58 @@
+Variables are containers of information. From what I have learned they contain information for you so you do not have to keep making unneeded changes to you code.
+
+There are five data types; integers (int), float, double, strings, and boolean (bool).
+
+Integers (int) are one of the most useful data types out there! Its output can be various numbers, even negatives! for example:
+
+int age; - [0] output
+int age = 6; [6] output
+int age = 8; [8] output
+
+However, if you put in a character it does not recognize it will not work. It will throw an error in your code, and you do not want that. for example:
+
+int age = 3+7; [x] output 
+
+Integers are already doing so much for you that the least you can do is do the math yourself.
+
+You can even name your integers to make coding and debugging that much easier. for example:
+
+int group age; -
+int danAge;
+int kieraAge;
+
+donAge = 21; 
+kieraAge = 19; 
+
+Once again integers can only hold data for you. Please do not let them do the math. Example:
+
+group age = 21 + kieraAge; [x] output
+group age = 40; [40] output
+
+Float is a keyword that signifies a type that stores 32-bit floating-point samples. Let us make an edit to my move.cs file for this upcoming example:
+
+publib class move : MonoBehaviour {
+	public float horizontalSpeed = .5f;
+	public float verticalSpeed = .2f;
+
+Here, we are telling the playable cube how fast we want it to go when traveling vertically and horizontally. The code here shows that said cube will go a farther distance when traveling horizontally than vertically.
+
+Public classes mean that they can be accessed outside of classes. How cool is that?
+
+For this next example now let us look at some code in my rotate.cs file:
+
+public class rorate : MonoBehaviour {
+	public float speed;
+	public rotX = 15;
+	public rotY = 30;
+	public rotZ = 45;
+
+	// Use this for intialization
+	void Start () {
+		speed = Random.Range (.5f, 2.0f);
+	}
+
+	//Update is called once per frame
+	voiceUpdate () {
+		transform.Rotate (new Vector3 (rotX, rotY, rotZ) * Time.deltaTime * speed);
+
+Here we have assigned how the smaller cubes that the playable cube is going to collect will rotate. We have quite an interesting mix here, but the effect looks great I promise. Each smaller cube will be rorate in the exact same direction. However, the speed of each cube will be generated at random from half to double average. You should also note how there are no numbers needed for the transform.Rotate function because we have already assigned them numbers earlier and are using the names we gave those integers instead. You will also notice these in the earlier examples.
